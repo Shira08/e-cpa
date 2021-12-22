@@ -1,6 +1,5 @@
 <?php
 $bdd = new PDO ("mysql:host=localhost;dbname=e-cpa;charset=utf8",'root', '');
-var_dump($_POST);
 if(isset($_POST['submit']))
 {
     
